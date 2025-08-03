@@ -10,7 +10,7 @@ type PhotoCardProps = {
 export default function PhotoCard({ imageUrl }: PhotoCardProps) {
   return (
     <Card className="group relative block w-full overflow-hidden rounded-lg shadow-sm transition-all duration-300 ease-in-out hover:shadow-xl focus-within:shadow-xl">
-      <Image
+      <img
         src={imageUrl}
         alt="Photo from gallery"
         width={500}

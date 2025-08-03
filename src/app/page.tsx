@@ -6,14 +6,14 @@ import { Upload } from 'lucide-react';
 import PhotoGrid from '@/components/photo-grid';
 
 const initialPhotos = [
-  "https://placehold.co/500x500.png",
-  "https://placehold.co/500x700.png",
-  "https://placehold.co/700x500.png",
-  "https://placehold.co/400x600.png",
-  "https://placehold.co/600x400.png",
-  "https://placehold.co/550x550.png",
-  "https://placehold.co/450x650.png",
-  "https://placehold.co/650x450.png",
+  "images/little signatures studio-11.jpg",
+  "images/little signatures studio-11.jpg",
+  "images/little signatures studio-11.jpg",
+  "images/little signatures studio-11.jpg",
+  "images/little signatures studio-11.jpg",
+  "images/little signatures studio-11.jpg",
+  "images/little signatures studio-11.jpg",
+  "images/little signatures studio-11.jpg",
 ];
 
 
@@ -43,7 +43,7 @@ export default function Home() {
       </main>
       <footer className="text-center py-6 mt-8 bg-muted/50">
         <p className="text-sm text-muted-foreground">
-            Designed for PhotoGrid.
+          Designed for PhotoGrid.
         </p>
       </footer>
     </div>
